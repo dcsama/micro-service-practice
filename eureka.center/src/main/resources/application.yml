@@ -1,13 +1,19 @@
 server:
-  port: 8080
+  port: 8761
 spring:
   application:
     name: center
 eureka:
   instance:
     hostname: localhost
+    instance-id: ${spring.application.name}:${spring.cloud.client.ipAddress}:${spring.application.instance_id:${server.port}
+    prefer-ip-address: true
   client:
     # 不需要注册的服务
     register-with-eureka: false
     # 不需要检索实例
     fetch-registry: false
+  server:
+    enable-self-preservation: false
+    # 5 秒后执行清理
+    eviction-interval-timer-in-ms: 5000

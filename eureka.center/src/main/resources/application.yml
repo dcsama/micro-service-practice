@@ -1,0 +1,13 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: center
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    # 不需要注册的服务
+    register-with-eureka: false
+    # 不需要检索实例
+    fetch-registry: false

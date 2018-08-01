@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a26df1df-5cb6-43de-90cf-7b203c743c8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../consumer/src/main/java/com/house/consumer/api/HouseRemoteClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../consumer/src/main/java/com/house/consumer/api/fail/HouseRemoteClientFallbackFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../consumer/src/main/java/com/house/consumer/config/FeignConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../consumer/src/main/java/com/house/consumer/ConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer/src/main/java/com/house/consumer/ConsumerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../consumer/src/main/java/com/house/consumer/controller/HouseConsumeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer/src/main/java/com/house/consumer/controller/HouseConsumeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer/src/main/resources/application.yml" afterDir="false" />
-    </list>
+    <list default="true" id="a26df1df-5cb6-43de-90cf-7b203c743c8e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,6 +14,7 @@
     <session id="-735268372">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.127" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -183,7 +174,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533130898177" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533131105938" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -220,16 +211,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533125825885</updated>
-      <workItem from="1533125951525" duration="3285000" />
+      <workItem from="1533125951525" duration="3511000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3285000" />
+    <option name="totallyTimeSpent" value="3511000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -249,7 +239,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3995657" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995657" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />

@@ -1,9 +1,10 @@
 package com.house.consumer.controller;
 
+import com.house.consumer.api.HouseRemoteClient;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.client.RestTemplate;
 
 import javax.annotation.Resource;
 
@@ -11,11 +12,16 @@ import javax.annotation.Resource;
 @RequestMapping("/house/consume")
 public class HouseConsumeController {
 
-    @Resource(name = "restTemplate")
-    private RestTemplate restTemplate;
+    @Resource(name = "houseRemoteClient")
+    private HouseRemoteClient houseRemoteClient;
 
     @GetMapping("/callHello")
+    @HystrixCommand(fallbackMethod = "callHelloBack")
     public String callHello(){
-        return this.restTemplate.getForObject("http://house-service/house/hello", String.class);
+        return houseRemoteClient.hello();
+    }
+
+    public String callHelloBack(){
+        return "call Hello failed.";
     }
 }

@@ -1,0 +1,21 @@
+server:
+  port: 8762
+spring:
+  application:
+    name: house-dashboard
+  data:
+    web:
+      pageable:
+        default-page-size:
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+management:
+  endpoint:
+    web:
+      exposure:
+        include: '*'
+    hystrix:
+      stream:
+        enabled: true

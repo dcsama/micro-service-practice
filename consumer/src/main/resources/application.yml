@@ -10,3 +10,8 @@ eureka:
 spring:
   application:
     name: house-consumer
+management:
+  endpoint:
+    hystrix:
+      stream:
+        enabled: true

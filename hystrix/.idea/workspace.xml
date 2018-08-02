@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a26df1df-5cb6-43de-90cf-7b203c743c8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/java/com/house/gateway/configuration/FilterConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gateway/src/main/java/com/house/gateway/filter/IpFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../monitor/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../monitor/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../monitor/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../monitor/monitor.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,7 +20,7 @@
     <session id="-735268372">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.127" value="1" />
           <entry key="project.opened" value="2" />
@@ -63,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/house/hystrix/HystrixApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -229,7 +231,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -275,7 +276,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/house/hystrix/HystrixApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
